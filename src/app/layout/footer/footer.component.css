@@ -1,0 +1,72 @@
+.ftco-footer {
+    font-size: 14px;
+    padding: 7em 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: #4e4e4e;
+    background: #000000;
+}
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    line-height: 1.5;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+.ftco-footer .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.8);
+}
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: #dbcc8f;
+    border-radius: 50%;
+    position: relative;
+    transition: .3s all ease;
+}
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
